@@ -6,15 +6,15 @@ Overview
 
 This lab explores the fundamentals of **TLS** and its role in securing communication over networks. It guides students through implementing:
 
-* ✅ A **TLS Client** to understand the handshake process, certificate validation, and secure data exchange.
-* ✅ A **TLS Server** with custom certificates and Subject Alternative Names (SANs).
-* ✅ A **Simple HTTPS Proxy** to demonstrate vulnerabilities such as Man-In-The-Middle (MITM) attacks.
+*  A **TLS Client** to understand the handshake process, certificate validation, and secure data exchange.
+*  A **TLS Server** with custom certificates and Subject Alternative Names (SANs).
+*  A **Simple HTTPS Proxy** to demonstrate vulnerabilities such as Man-In-The-Middle (MITM) attacks.
 
 Through these hands-on exercises, students gain practical experience in **TLS**, **PKI**, and **HTTPS**, preparing them to secure real-world applications.
 
 ---
 
-## 📂 Contents
+##  Contents
 
 * `handshake.py`: Implements a TLS client performing a handshake and data retrieval.
 * `server.py`: Implements a basic TLS server serving HTML content over HTTPS.
@@ -25,7 +25,7 @@ Through these hands-on exercises, students gain practical experience in **TLS**,
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 
@@ -34,7 +34,7 @@ Through these hands-on exercises, students gain practical experience in **TLS**,
 * Docker (optional for containerized environment)
 * Wireshark (for network traffic analysis)
 
-### 1️⃣ Run the TLS Client
+###  Run the TLS Client
 
 ```bash
 cd client
@@ -47,7 +47,7 @@ This will:
 * Validate server certificates
 * Send and receive data securely
 
-### 2️⃣ Run the TLS Server
+###  Run the TLS Server
 
 ```bash
 cd server
@@ -56,22 +56,22 @@ python3 server.py
 
 Ensure the server certificates (`server.crt` and `server.key`) exist in the `server-certs/` directory.
 
-### 3️⃣ Simulate HTTPS Proxy (MITM)
+###  Simulate HTTPS Proxy (MITM)
 
 Follow the instructions in the lab document to set up hosts redirection and run the MITM proxy.
 
 ---
 
-## 🔒 Key Features
+## Key Features
 
-* 🔑 TLS handshake with real-world servers (Google, Example.com)
-* 🗂 Custom CA directory for certificate validation
-* 📜 Certificate generation with SAN support
-* 🛡 MITM attack demonstration using HTTPS proxy
+*  TLS handshake with real-world servers (Google, Example.com)
+*  Custom CA directory for certificate validation
+*  Certificate generation with SAN support
+*  MITM attack demonstration using HTTPS proxy
 
 ---
 
-## 📚 References
+##  References
 
 * [RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2](https://datatracker.ietf.org/doc/html/rfc5246)
 * [Wireshark Documentation](https://www.wireshark.org/docs/)
@@ -79,18 +79,7 @@ Follow the instructions in the lab document to set up hosts redirection and run 
 * [OpenSSL](https://www.openssl.org/docs/)
 
 ---
-
-## 👨‍🎓 Author
-
 * **Diana Naseer**
 * Student ID: 1210363
 * Instructor: Dr. Ahmad Alsadeh
 * Date: 1/8/2024
-
----
-
-هل تريدني:
-
-✅ أن أضيف أيضًا **أوامر OpenSSL خطوة بخطوة** في README لإعداد الشهادات؟
-✅ أم تريد **نسخة عربية بالكامل** بجانب الإنجليزية؟
-✅ أم كلاهما معًا؟
