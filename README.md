@@ -1,9 +1,11 @@
 
 
 TLS Lab - ENCS5322
+
 This repository contains the implementation and documentation of a Transport Layer Security (TLS) Lab as part of the ENCS5322 course at the Faculty of Engineering & Technology, Electrical & Computer Engineering Department.
 
  Overview
+ 
 This lab explores the fundamentals of TLS and its role in securing communication over networks. It guides students through implementing:
 
 
